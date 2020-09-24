@@ -1,26 +1,38 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {Component} from 'react';
 import './App.css';
+import Home from './containers/Home';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import{BrowserRouter as Router, Route} from 'react-router-dom';
+import ContactUs from './containers/ContactUs';
+import Post from './containers/Post';
+import AboutUs from './containers/AboutUs';
+import Posts from './containers/Posts';
+import SearchBar from './components/SearchBar/index';
+import Information from './components/SearchBar/info-json';
+import Layout from './components/Layout';
+import reactDOM from 'react-dom';
 
-function App() {
+class App extends Component  {
+  render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Router>
+      <div className="App">
+      <Header />
+     <Hero />
+     
+     <Route path="/" exact component={Home}/>
+     <Route path="/contact-us" component={ContactUs}/>
+     <Route path="/post/:slug" component={Post}/>
+     <Route path="/post" component={Posts}/>
+     <Route path="/about-us" component={AboutUs}/>
+     <Route path="/search" exact component={SearchBar}/>
+       
+      </div>
+    </Router>
+    
   );
-}
+}}
 
 export default App;

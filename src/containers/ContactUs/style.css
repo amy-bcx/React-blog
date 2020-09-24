@@ -1,0 +1,14 @@
+.ImageContact 
+    {
+        display: flex;
+        justify-content: space-between;
+                
+    }
+
+.Desk image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: flex;
+}
+

@@ -1,0 +1,31 @@
+{
+    "data" : [
+        {
+            "id": 1,
+            "slug": "Blockchain in 6 Months for Free",
+            "blogCategory": "The Way to Blochchain",
+            "postedOn": "Sept 17, 2020",
+            "author": "AmanDev alias Amy-Bcx",
+            "blogImage": "AmanDev.jpeg"
+
+        },
+        {
+            "id" : 2,
+            "slug": "Blockchain in 6 Months for Free",
+            "postedOn": "Sept 17, 2020",
+            "author": "AmanDev alias Amy-Bcx",
+            "blogImage": "AmanDev2.jpeg"
+            
+        },
+        {
+            "id": 3,
+            "slug": "Blockchain in 6 Months for Free",
+            "postedOn": "Sept 18, 2020",
+            "author": "AmanDev alias Amy-Bcx",
+            "blogImage": "AmanDev3.jpeg"
+        }
+        
+    ]
+}
+
+

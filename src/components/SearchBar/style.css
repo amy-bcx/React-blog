@@ -1,0 +1,36 @@
+.search{
+    display: flex;
+    margin: 0 10px;
+}
+
+input{
+    border: 0;
+    max-width: 1.7cm;
+    max-height: 0.7cm;
+    transition: width 0.3s ease-in;
+}
+
+.barText.Input{
+    transition: width 0.3s linear;
+    background-color: rgb(239, 239, 247);
+}
+.barText.Input img{
+    transition: width 0.3s ease-in-out;
+}
+
+.searchInput.active{
+    width: 150px;
+}
+
+input:focus{
+    outline: 0.5cm;
+    color: rgb(239, 239, 247);;
+    
+   
+}
+
+
+.searchIcon{
+    cursor: pointer;
+}
+
