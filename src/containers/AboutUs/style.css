@@ -6,3 +6,9 @@
     margin-left: -9.90px;
 }
 
+.ImageContact div img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: flex;
+}
