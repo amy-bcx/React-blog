@@ -9,7 +9,7 @@ import './style.css';
 const Logo=(props)=>{
   return(
     <div className="logo">
-        <a href='http://localhost:3000/'>AmanDev</a>
+        <a href='https://amy-bcx.github.io/react-blog/'>AmanDev</a>
     </div>
    )
 

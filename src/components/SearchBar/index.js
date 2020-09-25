@@ -45,7 +45,7 @@ class SearchBar extends React.Component {
             }
           }).map(data=>{
             return(
-            <div>
+            <div className="inBar">
               <ul>
                 <li ><NavLink key={data.id} to={`/post/${data.slug}`}><span >{data.blogTitle}</span></NavLink></li>
                 <li><span >{data.postedOn}</span></li>
@@ -62,7 +62,7 @@ class SearchBar extends React.Component {
             
             <div ><img onClick={(e)=>this.searchSpace(e)} className="searchIcon" src={require('../../assets/icons/search.png')} placeholder="Search" alt="Search"/></div>
             
-            <Card  >
+            <Card className="searchCard" >
             <Transition
               
               items={items} keys={item => item.key}

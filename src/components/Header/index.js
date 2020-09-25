@@ -10,9 +10,9 @@ const Header = (props) => {
   return(
     <header className="header">
         <nav className="headerMenu">
-            <a href="http://localhost:3000/">Home</a>
-            <a href="http://localhost:3000/about-us">About Us</a>
-            <a href="http://localhost:3000/contact-us">Contact Us</a>
+            <a href="https://amy-bcx.github.io/react-blog/">Home</a>
+            <a href="https://amy-bcx.github.io/react-blog/about-us">About Me</a>
+            <a href="https://amy-bcx.github.io/react-blog/contact-us">Contact Me</a>
         </nav>
         <div>
             

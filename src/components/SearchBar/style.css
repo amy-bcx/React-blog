@@ -34,3 +34,12 @@ input:focus{
     cursor: pointer;
 }
 
+.searchCard{
+    max-height: 3cm;
+    max-height: fit-content;
+}
+
+.inBar{
+    max-height: 3cm;
+    max-height: fit-content;
+}

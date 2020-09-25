@@ -44,7 +44,7 @@ return (
             
             <span>Main Article</span>
             <h2>Welcome to my very first blog</h2>
-            <h5>It's my pleasure and honour to show you my first personnal blog.</h5>
+            <h5>It's my pleasure and honour to show you my first personal blog.</h5>
             <h5>You may wonder what the theme is, well, <i>Blockchain!</i></h5>
             <span><p>As a member of the <i>Blockchain Dev Quad 6</i> we are given tasks to fullfill...</p></span>
             <h6>{linkName}</h6>

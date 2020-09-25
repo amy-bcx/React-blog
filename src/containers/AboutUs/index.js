@@ -20,7 +20,7 @@ const AboutUs = (props) => {
         </div></Card>
         <Card style={{textAlign:'center'}}>
           <h2>
-            <i>About Us </i> 
+            <i>About Me </i> 
           </h2>
         </Card>
         <Card>Description about our Blockchain Dev6 Project</Card>
